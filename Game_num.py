@@ -7,4 +7,4 @@ if num_p1 == num:
 elif num_p2 == num:
     print('Победил второй игрок')
 else:
-    print('Ничья')
+    print('Вы не угадали')
