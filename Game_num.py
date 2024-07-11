@@ -1,10 +1,13 @@
 from random import randint
-num_p1 = int(input('Введите число первого игрока:'))
-num_p2 = int(input('Введите число второго игрока: '))
+name_p1 = input('Введите имя первого игрока: ')
+name_p2 = input('Введите имя второго игрока: ')
+num_p1 = int(input('Первый игрок вводит число: '))
+num_p2 = int(input('Второй игрок вводит число: '))
 num = randint(1, 6)
 if num_p1 == num:
-    print('Победил первый игрок')
+    print('Победил', name_p1)
 elif num_p2 == num:
-    print('Победил второй игрок')
+    print('Победил', name_p2)
 else:
-    print('Вы не угадали')
+    print('Попробуйте ещё раз')
+
